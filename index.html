@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf‑8" />
-    <title>Mi Blog</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Bienvenidos a mi blog</h1>
-      <nav>
-        <!-- Aquí puedes añadir enlaces a otras secciones -->
-      </nav>
-    </header>
-    <main>
-      <article>
-        <h2>Título del artículo</h2>
-        <p>Este es el contenido inicial de tu blog.  Personalízalo con tu propio texto y estilos.</p>
-      </article>
-    </main>
-    <footer>
-      <p>&copy; 2026 Tu Nombre</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <title>Blog Pokémon Ranger - Parte 1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Blog Pokémon Ranger</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Introducción & Juegos</a></li>
+        <li><a href="index2.html">Mecánicas & Regiones</a></li>
+        <li><a href="index3.html">Legendarios & Misiones</a></li>
+        <li><a href="index4.html">Futuro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id="introduccion">
+      <h2>
+        <!-- Icono Ranger -->
+        <svg class="icono-titulo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+          <circle cx="32" cy="32" r="30" fill="#3a7d44"/>
+          <path d="M32 16 L32 48 M16 32 L48 32" stroke="#fff" stroke-width="4"/>
+        </svg>
+        ¿Qué es Pokémon Ranger?
+      </h2>
+      <p>
+        Pokémon Ranger es una saga spin-off de Pokémon lanzada para Nintendo DS.
+        A diferencia de los juegos principales, el jugador no captura Pokémon
+        para entrenarlos, sino que colabora con ellos de forma temporal para
+        proteger la naturaleza y ayudar a las personas.
+      </p>
+      <div class="galeria">
+      <img src="./img/imagen inicio 1.jpg" alt="Imagen 1" />
+      <img src="./img/imagen inicio 2.jpg" alt="Imagen 2" />
+      </div>
+    </article>
+
+    <article id="juegos">
+      <h2>
+        <!-- Icono Juego -->
+        <svg class="icono-titulo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+          <rect x="12" y="12" width="40" height="40" rx="6" fill="#8ccf7e"/>
+          <circle cx="32" cy="32" r="6" fill="#fff"/>
+        </svg>
+        Juegos de la Saga Pokémon Ranger
+      </h2>
+      <p>
+        La saga cuenta con tres títulos principales, cada uno con su propia
+        historia, región y personajes.
+      </p>
+      <ul>
+        <li>Pokémon Ranger</li>
+        <li>Pokémon Ranger: Sombras de Almia</li>
+        <li>Pokémon Ranger: Trazos de Luz</li>
+      </ul>
+       <div class="galeria"></div>
+      <img src="./img/caratula 1.jpg" alt="Imagen 1" />
+      <img src="./img/caratula 2.jpg" alt="Imagen 2" />
+      <img src="./img/caratula 3.jpg" alt="Imagen 3" />
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Francisco Javier Martinez Salvador</p>
+  </footer>
+</body>
 </html>
